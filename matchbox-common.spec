@@ -3,7 +3,7 @@
 %bcond_with	pda	# use PDA-style app folder setup (rather than Desktop)
 #
 Summary:	Common files for Matchbox desktop
-Summary(pl):	Wspólne pliki dla ¶rodowiska Matchbox
+Summary(pl.UTF-8):   WspÃ³lne pliki dla Å›rodowiska Matchbox
 Name:		matchbox-common
 Version:	0.9.1
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Common files for Matchbox desktop.
 
-%description -l pl
-Wspólne pliki dla ¶rodowiska Matchbox.
+%description -l pl.UTF-8
+WspÃ³lne pliki dla Å›rodowiska Matchbox.
 
 %prep
 %setup -q
