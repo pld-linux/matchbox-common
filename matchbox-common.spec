@@ -7,7 +7,7 @@ Summary(pl.UTF-8):	Wspólne pliki dla środowiska Matchbox
 Name:		matchbox-common
 Version:	0.9.1
 Release:	1
-License:	GPL(?)
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://projects.o-hand.com/matchbox/sources/matchbox-common/0.9/%{name}-%{version}.tar.bz2
 # Source0-md5:	8e8ba0ee170a9ac78fdc583b00ccf76b
