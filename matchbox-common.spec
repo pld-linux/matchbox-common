@@ -6,12 +6,12 @@ Summary:	Common files for Matchbox desktop
 Summary(pl.UTF-8):	Wspólne pliki dla środowiska Matchbox
 Name:		matchbox-common
 Version:	0.9.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://projects.o-hand.com/matchbox/sources/matchbox-common/0.9/%{name}-%{version}.tar.bz2
+Source0:	http://matchbox-project.org/sources/matchbox-common/0.9/%{name}-%{version}.tar.bz2
 # Source0-md5:	8e8ba0ee170a9ac78fdc583b00ccf76b
-URL:		http://projects.o-hand.com/matchbox/
+URL:		http://matchbox-project.org/
 # just to check for png support in libmatchbox
 BuildRequires:	libmatchbox-devel >= 1.1
 BuildRequires:	pkgconfig
