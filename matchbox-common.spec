@@ -6,7 +6,7 @@ Summary:	Common files for Matchbox desktop
 Summary(pl.UTF-8):	Wspólne pliki dla środowiska Matchbox
 Name:		matchbox-common
 Version:	0.9.1
-Release:	2
+Release:	2.1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://matchbox-project.org/sources/matchbox-common/0.9/%{name}-%{version}.tar.bz2
@@ -15,8 +15,8 @@ URL:		http://matchbox-project.org/
 # just to check for png support in libmatchbox
 BuildRequires:	libmatchbox-devel >= 1.1
 BuildRequires:	pkgconfig
-Requires:	matchbox-desktop >= 0.9
-Requires:	matchbox-panel >= 0.9
+Suggests:	matchbox-desktop >= 0.9
+Suggests:	matchbox-panel >= 0.9
 Requires:	matchbox-window-manager >= 0.9
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -48,6 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog
 %attr(755,root,root) %{_bindir}/matchbox-session
+%dir %{_datadir}/matchbox
 %{_datadir}/matchbox/vfolders/*.directory
 %{_datadir}/matchbox/vfolders/Root.order
 %{_iconsdir}/blondie
