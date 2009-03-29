@@ -6,7 +6,7 @@ Summary:	Common files for Matchbox desktop
 Summary(pl.UTF-8):	Wspólne pliki dla środowiska Matchbox
 Name:		matchbox-common
 Version:	0.9.1
-Release:	2.1
+Release:	3
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://matchbox-project.org/sources/matchbox-common/0.9/%{name}-%{version}.tar.bz2
@@ -49,6 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog
 %attr(755,root,root) %{_bindir}/matchbox-session
 %dir %{_datadir}/matchbox
+%dir %{_datadir}/matchbox/vfolders
 %{_datadir}/matchbox/vfolders/*.directory
 %{_datadir}/matchbox/vfolders/Root.order
 %{_iconsdir}/blondie
