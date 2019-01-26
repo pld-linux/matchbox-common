@@ -9,9 +9,9 @@ Version:	0.9.1
 Release:	3
 License:	GPL v2
 Group:		X11/Applications
-Source0:	http://matchbox-project.org/sources/matchbox-common/0.9/%{name}-%{version}.tar.bz2
+Source0:	http://downloads.yoctoproject.org/releases/matchbox/matchbox-common/0.9/%{name}-%{version}.tar.bz2
 # Source0-md5:	8e8ba0ee170a9ac78fdc583b00ccf76b
-URL:		http://matchbox-project.org/
+URL:		https://www.yoctoproject.org/software-item/matchbox/
 # just to check for png support in libmatchbox
 BuildRequires:	libmatchbox-devel >= 1.1
 BuildRequires:	pkgconfig
